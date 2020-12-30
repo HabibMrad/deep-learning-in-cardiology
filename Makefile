@@ -1,6 +1,6 @@
 .POSIX:
 
-tmp/ms.pdf: $(shell find . -maxdepth 1 -name '*.tex')
+tmp/ms.pdf: ms.bib ms.tex
 	docker container run \
 		--rm \
 		--user `id -u`:`id -g` \
