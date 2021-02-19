@@ -4,10 +4,9 @@
 [![test-document](https://github.com/pbizopoulos/deep-learning-in-cardiology/workflows/test-document/badge.svg)](https://github.com/pbizopoulos/deep-learning-in-cardiology/actions?query=workflow%3Atest-document)
 
 # Deep Learning in Cardiology
-This repository contains the code that generates **Deep Learning in Cardiology**.
+This repository contains the code that generates **Deep Learning in Cardiology** appeared in RBME.
 
 ## Requirements
-- [POSIX-oriented operating system](https://en.wikipedia.org/wiki/POSIX#POSIX-oriented_operating_systems)
 - [Docker](https://docs.docker.com/get-docker/)
 - [Make](https://www.gnu.org/software/make/)
 
@@ -16,5 +15,5 @@ This repository contains the code that generates **Deep Learning in Cardiology**
 2. `cd deep-learning-in-cardiology/`
 3. `sudo systemctl start docker`
 4. make options
-    * `make`             # Generate the document.
-    * `make clean`       # Remove the tmp/ directory.
+    - `make` # Generate the document.
+    - `make clean` # Remove the tmp/ directory.
